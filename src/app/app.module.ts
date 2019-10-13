@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { ButtonsModule ,BsDropdownModule,TabsModule} from 'ngx-bootstrap';
+import { ButtonsModule ,BsDropdownModule,ProgressbarModule } from 'ngx-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -26,7 +26,7 @@ import { aboutComponet } from "./about/about.component";
     BrowserAnimationsModule,
     ButtonsModule.forRoot(),
     BsDropdownModule.forRoot(),
-    TabsModule.forRoot()
+    ProgressbarModule.forRoot()
     
   ],
   providers: [],

@@ -52,4 +52,48 @@
   font-weight: 400;
 }
 
+@media (max-width: 575.98px) {
+  .about .team {
+    padding-left: 12px;
+  }
+  .about .media {
+    padding-left: 12px;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about {
+    text-align: center;
+  }
+  .about .team {
+    padding-left: 12px;
+  }
+  .about .media {
+    padding-left: 12px;
+    margin-top: 40px;
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about {
+    text-align: center;
+  }
+  .about .team {
+    padding-left: 12px;
+  }
+  .about .media {
+    padding-left: 12px;
+    margin-top: 40px;
+  }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .about .team {
+    padding-left: 12px;
+  }
+  .about .media {
+    padding-left: 12px;
+  }
+}
+
 /*# sourceMappingURL=about.component.css.map */

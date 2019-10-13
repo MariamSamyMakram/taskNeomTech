@@ -29,4 +29,16 @@
   border: none;
 }
 
+@media (max-width: 575.98px) {
+  .footer .list li {
+    padding: 2px 7px;
+  }
+  .footer .list li button {
+    font-size: 12px;
+  }
+  .footer .list li a {
+    font-size: 12px;
+  }
+}
+
 /*# sourceMappingURL=footer.component.css.map */
