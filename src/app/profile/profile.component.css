@@ -2,6 +2,7 @@
 .profile {
   background-image: url("/assets/img/cover.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto;
   height: 445px;
@@ -83,7 +84,7 @@
   margin-bottom: 35px;
 }
 .profile .dashboard .my-dashboard .Card {
-  padding: 23px;
+  padding: 11px;
   background: #3bafe0;
   border-radius: 9px;
 }

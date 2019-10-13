@@ -7,10 +7,87 @@
         </div>
         <div class="verify col-lg-6 col-md-7 col-sm-9 ">
             <input class="form-control" type="text" placeholder="Search" aria-label="Search" #search>
-            <a href="#" class="search" (click)="onClick(search)"><i class="fa fa-search"></i></a>
-            <a href="#"><i class="fas fa-comment-alt"></i></a>
-            <a href="#"><i class="fas fa-bell"></i></a>
-            <span>{{nameFirst}} , {{nameLast}} <a href="#" class="fas fa-sort-down"></a></span>
+            <div class="btn-group search" >
+                <div id="button-disabled-item"   >
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="btn-group message" dropdown>
+                    <div id="button-disabled-item" dropdownToggle  aria-controls="dropdown-disabled-item">
+                        <i class="fas fa-comment-alt"></i>
+                    </div>
+                    <ul id="dropdown-disabled-item" *dropdownMenu class="dropdown-menu"role="menu" aria-labelledby="button-disabled-item">
+                        <li role="menuitem">
+                            <a class="dropdown-item disabled" href="#">
+                                <img src="/assets/img/profile.jpg" style="border-radius: 50%;">
+                                <span>hello dear </span>
+                            </a>
+                        </li>
+                        <hr>
+                        <li role="menuitem">
+                            <a class="dropdown-item" href="#">
+                                <img src="/assets/img/profile.jpg" style="border-radius: 50%;">
+                                <span>welcome ms.mouhamd </span>
+                            </a>
+                        </li>
+                        <hr>
+                        <li role="menuitem">
+                            <a class="dropdown-item" href="#">
+                                <img src="/assets/img/profile.jpg" style="border-radius: 50%;">
+                                <span>hello dear </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            <div class="btn-group navigation" dropdown>
+                <div id="button-disabled-item" dropdownToggle  aria-controls="dropdown-disabled-item">
+                   <i class="fas fa-bell"></i>               </div>
+                <ul id="dropdown-disabled-item" *dropdownMenu class="dropdown-menu"role="menu" aria-labelledby="button-disabled-item">
+                    <li role="menuitem">
+                        <a class="dropdown-item disabled" href="#">
+                            <img src="/assets/img/image1.png" style="border-radius: 50%;">
+                            <span>information is posted today .</span>
+                        </a>
+                    </li>
+                    <li role="menuitem">
+                        <a class="dropdown-item" href="#">
+                            <img src="/assets/img/image1.png" style="border-radius: 50%;">
+                            <span>information is posted today .</span>
+                        </a>
+                    </li>
+                    <li role="menuitem">
+                        <a class="dropdown-item" href="#">
+                            <img src="/assets/img/image1.png" style="border-radius: 50%;">
+                            <span>information is posted today .</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn-group dropdown" dropdown>
+                <div id="button-disabled-item" dropdownToggle  class=" dropdown-toggle" aria-controls="dropdown-disabled-item">
+                    <span>{{nameFirst}} , {{nameLast}} </span>
+                </div>
+                <ul id="dropdown-disabled-item" *dropdownMenu class="dropdown-menu"role="menu" aria-labelledby="button-disabled-item">
+                    <li class="disabled" role="menuitem">
+                        <a class="dropdown-item disabled" href="#">
+                            <i class="far fa-user-circle"></i> 
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li role="menuitem">
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-cog"></i>
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                    <li role="menuitem">
+                        <a class="dropdown-item" href="#">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <img src="assets/img/profile.jpg" alt="profile">
             <button type="button" class="btn btn-primary">
                 <i class="fas fa-check-circle"></i> Verify

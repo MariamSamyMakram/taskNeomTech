@@ -16,10 +16,21 @@
             height: 35px;
         }
         a{
-            margin: 0 13px;
+            margin: 0px 9px;
             color: $color2;
-            font-size: 21px;
+            font-size: 16px;
             &:hover{color: $color1;}
+        }
+        .dropdown{
+            padding: 15px;
+        }
+        .navigation,.message,.search{
+            padding: 6px;
+            color: $color2;
+            &:hover{
+                color: $color1;
+            }
+            a{margin: 0px;}
         }
         img{
             width: 70px;

@@ -16,12 +16,25 @@
   height: 35px;
 }
 .header .verify a {
-  margin: 0 13px;
+  margin: 0px 9px;
   color: #adabab;
-  font-size: 21px;
+  font-size: 16px;
 }
 .header .verify a:hover {
   color: #797878;
+}
+.header .verify .dropdown {
+  padding: 15px;
+}
+.header .verify .navigation, .header .verify .message, .header .verify .search {
+  padding: 6px;
+  color: #adabab;
+}
+.header .verify .navigation:hover, .header .verify .message:hover, .header .verify .search:hover {
+  color: #797878;
+}
+.header .verify .navigation a, .header .verify .message a, .header .verify .search a {
+  margin: 0px;
 }
 .header .verify img {
   width: 70px;

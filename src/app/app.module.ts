@@ -1,9 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule  } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { ButtonsModule ,BsDropdownModule } from 'ngx-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import {TranslateModule} from '@ngx-translate/core';
 
 
 
@@ -44,8 +45,8 @@ import { aboutComponet } from "./about/about.component";
       "unitsFontSize":"20",
       "showSubtitle":false
         
-    })
-    
+    }),
+    TranslateModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
