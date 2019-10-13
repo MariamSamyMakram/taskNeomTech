@@ -48,13 +48,16 @@
                             <p>Education <a class="fas fa-pencil-alt"></a></p>
                             <div class="Card row">
                                 <div class="col-lg-4 col-sm-4">
-                                        <div class="c100 p94 small">
-                                                <span>94%</span>
-                                                <div class="slice">
-                                                    <div class="bar"></div>
-                                                    <div class="fill"></div>
-                                                </div>
-                                        </div>
+                                        <circle-progress
+                                        [percent]="85"
+                                        [radius]="100"
+                                        [outerStrokeWidth]="16"
+                                        [innerStrokeWidth]="8"
+                                        [outerStrokeColor]="'#78C000'"
+                                        [innerStrokeColor]="'#C7E596'"
+                                        [animation]="true"
+                                        [animationDuration]="1200"
+                                      ></circle-progress>
                                 </div>
                                 <div class="col-lg-6 col-sm-5 mt-4">
                                     <p><i class="fas fa-check-circle"></i> EDUCATION DONE</p>

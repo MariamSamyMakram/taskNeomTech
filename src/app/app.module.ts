@@ -28,12 +28,24 @@ import { aboutComponet } from "./about/about.component";
     ButtonsModule.forRoot(),
     BsDropdownModule.forRoot(),
     NgCircleProgressModule.forRoot({
-      radius: 100,
-      outerStrokeWidth: 16,
-      innerStrokeWidth: 8,
-      outerStrokeColor: "#78C000",
-      innerStrokeColor: "#C7E596",
-      animationDuration: 300,
+      "backgroundPadding": 7,
+      "radius": 60,
+      "space": -2,
+      "outerStrokeWidth": 2,
+      "outerStrokeColor": "#808080",
+      "innerStrokeColor": "#e7e8ea",
+      "innerStrokeWidth": 2,
+      "title": [
+        "working",
+        "in",
+        "progress"
+      ],
+      "titleFontSize": "12",
+      "subtitleFontSize": "20",
+      "animateTitle": false,
+      "animationDuration": 1000,
+      "showUnits": false,
+      "clockwise": false
     })
     
   ],
