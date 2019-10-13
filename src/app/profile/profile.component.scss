@@ -1,0 +1,248 @@
+@import '../variables.component.scss';
+@import '../profile/circle.component.scss';
+.profile{
+    background-image: url('/assets/img/cover.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 445px;
+    padding-bottom: 11px;
+    .imageProfile{
+        text-align: center;
+        img{
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid $color4;
+            padding: 6px;
+            &:hover{
+                padding: 4px;
+            }
+        }
+        i{
+            position: relative;
+            right: 35px;
+            top: 45px;
+            font-size: 21px;
+            color: #39dc99;
+            background: $color4;
+            padding: 5px;
+            border-radius: 19px;
+            border: 3px solid #158bd1;
+        }
+        h1{
+            font-size: 23px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: $color4;
+        }
+        p{
+            font-size: 14px;
+            color: #ddd;
+            margin-bottom: 30px;
+
+            a{color: #ddd;text-decoration: none;}
+        }
+        button{
+            padding: 7px 50px;
+            border-radius: 35px;
+            font-size: 17px;
+        }
+    }
+    .dashboard{
+        ul{
+            li{
+                padding-right: 26px;
+                &:hover{
+                    border-bottom: 3px solid $color4;
+                    a{color: $color4;}
+                }
+                a{
+                    text-decoration:none;
+                    color:#128ed4;
+                }
+                span{
+                    color: $color4;
+                }
+            }
+        }
+        .my-dashboard{
+            background: #fff;
+            padding: 13px 37px 80px;
+            position: relative;
+            top: 69px;
+            -webkit-box-shadow: -4px 10px 25px 0px rgba(92,91,92,1);
+            -moz-box-shadow: -4px 10px 25px 0px rgba(92,91,92,1);
+            box-shadow: -4px 10px 25px 0px rgba(92,91,92,1);
+            p{
+                font-weight: bold;
+                color: $color1;
+                margin-bottom: 35px;
+            }
+            .Card{
+                padding: 23px;
+                background: #3bafe0;
+                border-radius: 9px;
+                p{
+                    font-size: 8px;
+                    color: #fff;
+                    margin-bottom: 0;
+
+                    .fa-check-circle{
+                        font-size: 16px;
+                        padding: 3px;
+                    }
+                    .fa-exclamation-circle{
+                        color: #f70628;
+                        font-size: 18px;
+                        padding: 2px;
+                    }
+                }
+                .number{font-size: 14px;font-weight: 100;}
+                
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 575.98px){
+    .profile{
+        background-position: center;
+        background-repeat: initial;
+        background-size: unset;
+        background-attachment: fixed;
+        height: unset;
+        padding-bottom: 100px;
+        .dashboard{
+            .my-dashboard{
+                position: relative;
+                top: 50px;
+            }
+            ul{
+                li{
+                    display: block;
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+            .my-dashboard{
+                .Card{
+                    p{
+                        font-size: 14px;
+                    }
+                    .c100.small{float: none;}
+                    .number{visibility: hidden;}
+                }
+            }
+        }
+        
+    }
+    
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .profile{
+        background-position: center;
+        background-repeat: initial;
+        background-size: unset;
+        background-attachment: fixed;
+        height: unset;
+        padding-bottom: 100px;
+        .dashboard{
+            .my-dashboard{
+                position: relative;
+                top: 50px;
+            }
+            ul{
+                li{
+                    display: block;
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+            .my-dashboard{
+                .Card{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .profile{
+        background-position: center;
+        background-repeat: initial;
+        background-size: unset;
+        background-attachment: fixed;
+        height: unset;
+        padding-bottom: 100px;
+        .imageProfile{
+            img{
+                width: 150px;
+                height: 150px;
+            }
+            h1{  font-size: 40px; }
+            p{ font-size: 20px; }
+            button{    
+                padding: 7px 74px;
+                font-size: 20px;
+            }
+        }
+        .dashboard{
+            .my-dashboard{
+                position: relative;
+                top: 50px;
+            }
+            ul{
+                li{
+                    display: block;
+                    font-size: 18px;
+                    text-align: center;
+                }
+            }
+            .my-dashboard{
+                .Card{
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .profile{
+        .dashboard{
+            ul{
+                li{font-size: 14px;}
+            }
+            .c100.small{font-size: 50px;}
+            .my-dashboard{
+                .Card{
+                    padding: 13px;
+                    .number{font-size: 11px;}
+                    .col-lg-5{
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                    .fa-check-circle{    font-size: 10px; }
+                    .fa-exclamation-circle{    font-size: 16px;   }
+                }
+            }
+        }
+    }
+   
+}

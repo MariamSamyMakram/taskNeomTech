@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap");
+.header {
+  font-family: "Be Vietnam", sans-serif;
+}
+.header .logo a {
+  font-size: 35px;
+  color: #797878;
+  text-decoration: none;
+}
+.header .logo a img {
+  width: 100px;
+}
+.header .verify .form-control {
+  display: none;
+  width: 100px;
+  height: 35px;
+}
+.header .verify a {
+  margin: 0 13px;
+  color: #adabab;
+  font-size: 21px;
+}
+.header .verify a:hover {
+  color: #797878;
+}
+.header .verify img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+.header .verify img:hover {
+  border: 1px solid #adabab;
+}
+.header .verify span {
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.header .verify span a {
+  text-decoration: none;
+}
+.header .verify button {
+  margin: 0 30px;
+  border-radius: 28px;
+  padding: 4px 30px;
+}
+
+@media (max-width: 575.98px) {
+  .header .logo a {
+    font-size: 15px;
+  }
+  .header .logo a img {
+    width: 50px;
+  }
+  .header .verify a {
+    margin: 0 3px;
+    font-size: 11px;
+  }
+  .header .verify span {
+    font-size: 11px;
+  }
+  .header .verify img {
+    width: 40px;
+    height: 40px;
+  }
+  .header .verify button {
+    padding: 1px 8px;
+    font-size: 11px;
+    margin: 0 0 0 6px;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header .logo {
+    margin-top: 6px;
+  }
+  .header .logo a {
+    font-size: 15px;
+  }
+  .header .logo a img {
+    width: 50px;
+  }
+  .header .verify a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  .header .verify span {
+    font-size: 12px;
+  }
+  .header .verify img {
+    width: 60px;
+    height: 60px;
+  }
+  .header .verify button {
+    padding: 1px 23px;
+    font-size: 11px;
+    margin: 0 0 0 6px;
+  }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header .logo {
+    margin-top: 6px;
+  }
+  .header .logo a {
+    font-size: 15px;
+  }
+  .header .logo a img {
+    width: 50px;
+  }
+  .header .verify a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  .header .verify span {
+    font-size: 12px;
+  }
+  .header .verify img {
+    width: 60px;
+    height: 60px;
+  }
+  .header .verify button {
+    padding: 1px 23px;
+    font-size: 11px;
+    margin: 0 0 0 6px;
+  }
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .header .logo {
+    margin-top: 6px;
+  }
+  .header .logo a {
+    font-size: 15px;
+  }
+  .header .logo a img {
+    width: 50px;
+  }
+  .header .verify a {
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  .header .verify span {
+    font-size: 12px;
+  }
+  .header .verify img {
+    width: 60px;
+    height: 60px;
+  }
+  .header .verify button {
+    padding: 1px 23px;
+    font-size: 11px;
+    margin: 0 0 0 36px;
+  }
+}
+
+/*# sourceMappingURL=header.component.css.map */

@@ -1,10 +1,20 @@
-<div class="container-fluid">
+<div class="header container-fluid pt-2 pb-2">
     <div class="row">
-        <div class="col-lg-8">
-            <img src="assets/img/image1.png" alt="image"> Zidyia
+        <div class="logo col-lg-6 col-md-5 col-sm-3">
+            <a href="#">
+                <img src="assets/img/image1.png" alt="image"> Zidyia
+            </a>            
         </div>
-        <div class="col-lg-4">
-            <i class="fas fa-search"></i>	
+        <div class="verify col-lg-6 col-md-7 col-sm-9 ">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search" #search>
+            <a href="#" class="search" (click)="onClick(search)"><i class="fa fa-search"></i></a>
+            <a href="#"><i class="fas fa-comment-alt"></i></a>
+            <a href="#"><i class="fas fa-bell"></i></a>
+            <span>{{nameFirst}} , {{nameLast}} <a href="#" class="fas fa-sort-down"></a></span>
+            <img src="assets/img/profile.jpg" alt="profile">
+            <button type="button" class="btn btn-primary">
+                <i class="fas fa-check-circle"></i> Verify
+            </button>
         </div>
     </div>
 </div>

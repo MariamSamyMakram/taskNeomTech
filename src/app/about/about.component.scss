@@ -1,0 +1,48 @@
+@import '../variables.component.scss';
+.about{
+    font-family: $font-family;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: rgb(247, 252, 252);
+    h4{font-weight: bold;font-size: 20px;}
+    .team{
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 36px;
+        li{
+            display: inline-block;
+            padding-right: 40px;
+            a{
+                text-decoration: none;
+                font-size: 20px;
+                color: $color3;
+            }
+            h5{font-size: 15px;}
+        }
+    }
+    .media{
+        list-style-type: none;
+        padding-left: 0;
+        li{
+            display: inline-block;
+            padding-right: 8px;
+            a{
+                font-size: 19px;
+                color: #fff;
+                background: #007bff;
+                padding: 8px;
+                border-radius: 50%;
+                text-decoration: none;  
+                &:hover{
+                    padding: 10px;
+                }
+            }
+        } 
+    }
+    p{
+        font-size: 13px;
+        margin-top: 20px;
+        color: #686969;
+        font-weight: 400;
+    }
+}

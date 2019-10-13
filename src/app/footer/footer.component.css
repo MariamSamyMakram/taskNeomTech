@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap");
+.footer .list {
+  list-style-type: none;
+  color: #adabab;
+  padding: 0;
+}
+.footer .list li {
+  display: inline;
+  padding: 2px 10px;
+}
+.footer .list li a {
+  color: #adabab;
+  text-decoration: none;
+}
+.footer .list li a:hover {
+  color: #000;
+}
+.footer .list li button {
+  color: #adabab;
+}
+.footer .list li button:hover {
+  color: #000;
+}
+.footer .list li:hover {
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.footer .list li ul li {
+  border: none;
+}
+
+/*# sourceMappingURL=footer.component.css.map */
