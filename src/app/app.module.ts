@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-import { ButtonsModule ,BsDropdownModule,ProgressbarModule } from 'ngx-bootstrap';
+import { ButtonsModule ,BsDropdownModule } from 'ngx-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 
 
@@ -26,7 +27,14 @@ import { aboutComponet } from "./about/about.component";
     BrowserAnimationsModule,
     ButtonsModule.forRoot(),
     BsDropdownModule.forRoot(),
-    ProgressbarModule.forRoot()
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+    })
     
   ],
   providers: [],

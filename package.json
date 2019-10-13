@@ -23,6 +23,7 @@
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
+    "ng-circle-progress": "^1.5.1",
     "ngx-bootstrap": "^5.1.2",
     "popper.js": "^1.15.0",
     "rxjs": "~6.4.0",

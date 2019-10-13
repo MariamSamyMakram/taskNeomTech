@@ -11,7 +11,6 @@
 }
 .about .team {
   list-style-type: none;
-  padding-left: 0;
   margin-top: 36px;
 }
 .about .team li {
@@ -28,7 +27,6 @@
 }
 .about .media {
   list-style-type: none;
-  padding-left: 0;
 }
 .about .media li {
   display: inline-block;
@@ -36,6 +34,7 @@
 }
 .about .media li a {
   font-size: 19px;
+  width: 32px;
   color: #fff;
   background: #007bff;
   padding: 8px;
@@ -43,7 +42,7 @@
   text-decoration: none;
 }
 .about .media li a:hover {
-  padding: 10px;
+  padding: 9px;
 }
 .about p {
   font-size: 13px;
